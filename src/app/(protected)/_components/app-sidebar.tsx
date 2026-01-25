@@ -1,11 +1,12 @@
 "use client";
 
+import { AvatarFallback } from "@radix-ui/react-avatar";
 import {CalendarDays, LayoutDashboard, LogOut, Stethoscope, UsersRound } from "lucide-react"
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 
-import { Button } from "@/components/ui/button";
+import { Avatar } from "@/components/ui/avatar";
 import {DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 import {
   Sidebar,
@@ -47,6 +48,8 @@ const items = [
 
 export function AppSidebar() { 
   const router = useRouter();
+  const session = authClient.useSession();
+
  const handleSignOut = async () => {
    await authClient.signOut({
       fetchOptions: {
@@ -54,7 +57,7 @@ export function AppSidebar() {
       router.push("/authentication");
   },
 },
-})
+});
 };
 
   return (
@@ -86,7 +89,15 @@ export function AppSidebar() {
           <SidebarMenuItem>
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
-                <Button>Clínica</Button>
+                <SidebarMenuButton size="lg">
+                  <Avatar>
+                    <AvatarFallback>F</AvatarFallback>
+                  </Avatar>
+                  <div className="p-8">
+                    <p className="text-sm">{session.data?.user.clinic.name}</p>
+                    <p className="text-sm text-muted-foreground">{session.data?.user.email}</p>
+                  </div>
+                </SidebarMenuButton>
             </DropdownMenuTrigger>
             <DropdownMenuContent>
               <DropdownMenuItem onClick={handleSignOut}>
