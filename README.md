@@ -66,6 +66,7 @@ Plataforma **SaaS** para agendamento de consultas médicas, permitindo que clín
 <img width="1440" height="1024" alt="Image" src="https://github.com/user-attachments/assets/98d9a4b3-5c21-4ad7-950e-50ea31794cbc" />
 </div>
 <div align="center">
+  <img width="1440" height="1024" alt="Image" src="https://github.com/user-attachments/assets/cbd52936-34db-40a7-ba55-3cb6099d38f9" />
 <img width="1440" height="1024" alt="Image" src="https://github.com/user-attachments/assets/e75c1043-f98f-401e-991a-fff8c9e5da07" />
 </div>
 
