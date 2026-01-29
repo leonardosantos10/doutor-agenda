@@ -5,10 +5,6 @@
 Plataforma **SaaS** para agendamento de consultas médicas, permitindo que clínicas gerenciem profissionais, disponibilidade e autenticação de usuários de forma simples e segura.
 
 ---
-
-<div align="center">
-<img width="1600" height="807" alt="Image" src="https://github.com/user-attachments/assets/74ef0819-cadd-474e-95d9-beb67a608d3c" />
-</div>
 <div align="center">
 <img width="5760" height="4580" alt="Image" src="https://github.com/user-attachments/assets/08de63b0-90f5-4837-80bf-dee86f664395" />
 </div>
@@ -23,6 +19,9 @@ Plataforma **SaaS** para agendamento de consultas médicas, permitindo que clín
 </div>
 <div align="center">
 <img width="1440" height="1024" alt="Image" src="https://github.com/user-attachments/assets/cbd52936-34db-40a7-ba55-3cb6099d38f9" />
+</div>
+<div align="center">
+<img width="1600" height="807" alt="Image" src="https://github.com/user-attachments/assets/74ef0819-cadd-474e-95d9-beb67a608d3c" />
 </div>
 
 ## 🚀 Tecnologias Utilizadas
