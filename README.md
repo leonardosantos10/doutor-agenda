@@ -1,4 +1,3 @@
-# Projeto completo Full-stack em Desenvolvimento !
 
 # 🩺 Doutor Agendar
 
